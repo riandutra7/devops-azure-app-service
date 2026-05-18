@@ -29,6 +29,7 @@ jobs:
           context: .
           push: true
           tags: ghcr.io/riandutra7/devops-azure-app-service:latest
+          provenance: false
 
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v2
